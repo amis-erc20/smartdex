@@ -34,6 +34,8 @@ var ZEROEX_RELAY_ADDRESSES = {
         "0xa258b39954cef5cb142fd567a46cddb31a670124": "Radar Relay",
         "0xeb71bad396acaa128aeadbc7dbd59ca32263de01": "Kin Alpha",
         "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea": "OpenRelay",
+        "0x5dd835a893734b8d556eccf87800b76dda5aedc5": "BambooRelay",
+        "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9": "TokenJar",
     },
     42: {},
 };
