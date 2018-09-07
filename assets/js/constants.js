@@ -40,9 +40,9 @@ var ZEROEX_RELAY_ADDRESSES = {
         "0xe269e891a2ec8585a378882ffa531141205e92e9": "DDEX",
         "0x173a2467cece1f752eb8416e337d0f0b58cad795": "ERCDEX",
         "0x7219612be7036d1bfa933e16ca1246008f38c5fe": "The Ocean",
-        "0x55890b06f0877a01bb5349d93b202961f8e27a9b": "Shark Relay"
-        "0x4524baa98f9a3b9dec57caae7633936ef96bd708": "LedgerDex"
-        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f": "Tokenlon"
+        "0x55890b06f0877a01bb5349d93b202961f8e27a9b": "Shark Relay",
+        "0x4524baa98f9a3b9dec57caae7633936ef96bd708": "LedgerDex",
+        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f": "Tokenlon",
     },
     42: {},
 };
