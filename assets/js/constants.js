@@ -36,6 +36,13 @@ var ZEROEX_RELAY_ADDRESSES = {
         "0xc22d5b2951db72b44cfb8089bb8cd374a3c354ea": "OpenRelay",
         "0x5dd835a893734b8d556eccf87800b76dda5aedc5": "BambooRelay",
         "0x5e150a33ffa97a8d22f59c77ae5487b089ef62e9": "TokenJar",
+        "0x8124071f810d533ff63de61d0c98db99eeb99d64": "Star Bit",
+        "0xe269e891a2ec8585a378882ffa531141205e92e9": "DDEX",
+        "0x173a2467cece1f752eb8416e337d0f0b58cad795": "ERCDEX",
+        "0x7219612be7036d1bfa933e16ca1246008f38c5fe": "The Ocean",
+        "0x55890b06f0877a01bb5349d93b202961f8e27a9b": "Shark Relay"
+        "0x4524baa98f9a3b9dec57caae7633936ef96bd708": "LedgerDex"
+        "0x6f7ae872e995f98fcd2a7d3ba17b7ddfb884305f": "Tokenlon"
     },
     42: {},
 };

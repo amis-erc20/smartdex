@@ -31,6 +31,13 @@ routerApp.factory('MarketData', ['$http', '$rootScope',
                 method: 'GET',
             });
         };
+        service.GetTickerData = function (token) {
+            var url = 'https://tokenjar.io/api/cmc/ticker';
+            return $http({
+                url: proxy + url,
+                method: 'GET',
+            });
+        };
         //Get Chart Data
         service.GetChartData = function (networkId, tokenA, tokenB, startData, endDate) {
             var url = 'https://api.ercdex.com/api/reports/historical?networkId=' + networkId + '&makerTokenAddress=' + tokenA + '&takerTokenAddress=' + tokenB + '&startDate=' + startData + '&endDate=' + endDate;
@@ -42,6 +49,13 @@ routerApp.factory('MarketData', ['$http', '$rootScope',
         //Get Given Token Market's Orderbook based on WETH
         service.GetOrderData = function (networkId, tokenA, tokenB) {
             var url = "https://api.ercdex.com/api/standard/" + networkId + "/v0/orderbook?baseTokenAddress=" + tokenA + "&quoteTokenAddress=" + tokenB;
+            return $http({
+                url: proxy + url,
+                method: 'GET',
+            });
+        };
+        service.GetOrderData = function (networkId, tokenA, tokenB) {
+            var url = "https://sra.bamboorelay.com/" + networkId + "/v0/token_pairs?baseTokenAddress=" + tokenA + "&quoteTokenAddress=" + tokenB;
             return $http({
                 url: proxy + url,
                 method: 'GET',
