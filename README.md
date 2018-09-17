@@ -15,7 +15,7 @@ What is smartdex
 # smartdex
 
 Smartdex is an experimental 0x relay decentralized exchange
-<img align="left" src="https://raw.githubusercontent.com/amis-erc20/smardex/master/assets/img/exchange.png" alt="exchange"/>
+<img align="left" src="https://raw.githubusercontent.com/amis-erc20/smartdex/master/assets/img/exchange.png" alt="exchange"/>
 
 amis-erc20 and smartdex are part of the ERC20-AMIS Token Future, options and crypto derivatives Project.
 Smart Dex is a web front end designed to interact with 0x project smart contracts powered by the ethereum blockchain.
