@@ -15,8 +15,7 @@ What is smartdex
 # smartdex
 
 Smartdex is an experimental 0x relay decentralized exchange
-
-[![Exchange Mainpage](https://raw.githubusercontent.com/amis-erc20/smardex/master/assets/img/exchange.png)]
+<img align="left" src="https://raw.githubusercontent.com/amis-erc20/smardex/master/assets/img/exchange.png" alt="exchange"/>
 
 amis-erc20 and smartdex are part of the ERC20-AMIS Token Future, options and crypto derivatives Project.
 Smart Dex is a web front end designed to interact with 0x project smart contracts powered by the ethereum blockchain.
@@ -29,6 +28,6 @@ Smart Dex is a web front end designed to interact with 0x project smart contract
 ## Kovan
 
 The UI below connects you to the live kovan contract:
-- [https://amis-erc20.github.io/smartdex/exchange/](https://amis-erc20.github.io/smartdex/exchange/)
+- [https://amis-erc20.github.io/smartdex/](https://amis-erc20.github.io/smartdex/)
 - https://kovan.etherscan.io/address/0x#code WETH  
 - https://kovan.etherscan.io/address/0x#code 0x Exchange
