@@ -23,16 +23,16 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
         }
     });
 });
-//For development
+//For development  WETH 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2   ropsten WETH9 0xc778417e063141139fce010982780140aa0cd5ab
 routerApp.constant('config', {
-    'NetworkId': '1',
+    'NetworkId': '3',
     'APP_NAME': 'ERC20 Token Exchange',
     'APP_VERSION': '1.0.0',
     'BASE_URL': 'http://localhost:3000',
     'SYSTEM_LANGUAGE': 'Typescript',
     'BASE_TOKEN': 'WETH',
-    'BASE_TOKEN_ADDRESS': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
-    'INFURA_API_URL': 'https://kovan.infura.io/QKt6Cz7nybWrpMH4xxLL',
+    'BASE_TOKEN_ADDRESS': '0xc778417e063141139fce010982780140aa0cd5ab',
+    'INFURA_API_URL': 'https://ropsten.infura.io/QKt6Cz7nybWrpMH4xxLL',
     'INFURA_API_KEY': 'QKt6Cz7nybWrpMH4xxLL'
 });
 routerApp.run(function (config, $rootScope) {
