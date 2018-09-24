@@ -32,7 +32,7 @@ routerApp.constant('config', {
     'SYSTEM_LANGUAGE': 'Typescript',
     'BASE_TOKEN': 'WETH',
     'BASE_TOKEN_ADDRESS': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
-    'INFURA_API_URL': 'https://infura.io/QKt6Cz7nybWrpMH4xxLL',
+    'INFURA_API_URL': 'https://mainnet.infura.io/QKt6Cz7nybWrpMH4xxLL',
     'INFURA_API_KEY': 'QKt6Cz7nybWrpMH4xxLL'
 });
 routerApp.run(function (config, $rootScope) {
