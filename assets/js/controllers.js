@@ -60,7 +60,7 @@ routerApp.controller('marketCtrl', ['$scope', '$http', '$stateParams', 'config',
         //   console.log(result);
         // });
         // console.log($scope.address);
-        MarketData.getBalance('ZRX', "0x627306090abaB3A6e1400e9345bC60c78a8BEf57").then(function (res) {
+        MarketData.getBalance('ZRX', "0x6d1c53d16B7f9779483Bfc7441ac5dd8777b5106").then(function (res) {
             if (res.status == 'ok') {
                 console.log(res.result);
             }

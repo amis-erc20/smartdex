@@ -16,7 +16,7 @@ $(document).ready(function () {
         openlogin.html('<a class="" title="Sign In" >Sign In</a>');
         opensignup.html('<a class="" title="Sign Up" >Sign Up</a>');
         $('#user_addr').text(wallet.slice(0, 10) + '...');
-        $('#user_addr').attr('href', 'https://ropsten.etherscan.io/address/' + wallet);
+        $('#user_addr').attr('href', 'https://etherscan.io/address/' + wallet);
     }
     $(document).delegate('.open', 'click', function (event) {
         $(this).addClass('oppenned');
