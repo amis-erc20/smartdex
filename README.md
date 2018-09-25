@@ -30,4 +30,11 @@ Smart Dex is a web front end designed to interact with 0x project smart contract
 The UI below connects you to the live kovan contract:
 - [https://amis-erc20.github.io/smartdex/](https://amis-erc20.github.io/smartdex/)
 - https://kovan.etherscan.io/address/0x#code WETH  
-- https://kovan.etherscan.io/address/0x#code 0x Exchange
+- https://kovan.etherscan.io/address/0x90fe2af704b34e0224bf2299c838e04d4dcf1364#code 0x Exchange
+
+## Mainnet
+
+The UI below connects you to the live mainnet contract:
+- [https://amis-erc20.github.io/smartdex/](https://amis-erc20.github.io/smartdex/)
+- https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code WETH  
+- https://etherscan.io/address/0x12459c951127e0c374ff9105dda097662a027093#code 0x Exchange v1
