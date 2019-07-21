@@ -29,7 +29,7 @@ routerApp.constant('config', {
     'APP_NAME': 'ERC20 Token Exchange',
     'APP_VERSION': '1.0.0',
     //'BASE_URL': 'https://api.tokenmom.com',
-    'BASE_URL': 'https://equable-lodge.glitch.me',
+    'BASE_URL': 'https://equable-lodge.glitch.me/shopping-list',
     'SYSTEM_LANGUAGE': 'Typescript',
     'BASE_TOKEN': 'WETH',
     'BASE_TOKEN_ADDRESS': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
