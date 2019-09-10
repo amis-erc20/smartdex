@@ -23,13 +23,16 @@ routerApp.config(function ($stateProvider, $urlRouterProvider) {
         }
     });
 });
-//For development  WETH 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2   ropsten WETH9 0xc778417e063141139fce010982780140aa0cd5ab
+// For development  WETH 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2   ropsten WETH9 0xc778417e063141139fce010982780140aa0cd5ab
 routerApp.constant('config', {
     'NetworkId': '1',
     'APP_NAME': 'ERC20 Token Exchange',
     'APP_VERSION': '1.0.0',
-    //'BASE_URL': 'https://api.tokenmom.com',
-    'BASE_URL': 'https://equable-lodge.glitch.me/shopping-list',
+    // 'BASE_URL': 'https://api.tokenmom.com',
+    // https://api.kovan.radarrelay.com/0x/v2/
+    // https://sra.bamboorelay.com/0x/v2/
+    'BASE_URL': 'https://api.radarrelay.com/0x/v2/',
+    // 'BASE_URL': 'https://equable-lodge.glitch.me/shopping-list',
     'SYSTEM_LANGUAGE': 'Typescript',
     'BASE_TOKEN': 'WETH',
     'BASE_TOKEN_ADDRESS': '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
